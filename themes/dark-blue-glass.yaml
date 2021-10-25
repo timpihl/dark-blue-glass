@@ -2,7 +2,7 @@ Dark Blue Glass:
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
-  lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/dark-blue-glass/blue.jpg") fixed'
+  lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/dark-blue-glass/images/blue.jpg") fixed'
   # Main colors
   primary-color: "#009bb5"
   light-primary-color: "#5ed1eb"
