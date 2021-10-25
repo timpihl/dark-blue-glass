@@ -1,5 +1,4 @@
 Dark Blue Glass:
-
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
