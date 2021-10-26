@@ -18,6 +18,7 @@ jobs:
         uses: miguelfito/github-bump-and-tag-action@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          commit_sha: ${{ GITHUB_SHA }}
           tag_prefix: ""
 
       - name: Create Release
