@@ -17,8 +17,8 @@ jobs:
       
       - name: Set variables
         run: |
-          VER=$(cat VERSION)
-          echo "VERSION=$VER" >> $GITHUB_ENV
+          VERSION=$(cat VERSION)
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
@@ -29,3 +29,4 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          echo Version: ${{ env.VERSION }}
