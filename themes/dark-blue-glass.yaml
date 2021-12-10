@@ -5,8 +5,8 @@ Dark Blue Glass:
 
   # Header
   header-height: 48px
-  app-header-background-color: rgb(0,154,181)
-  app-header-text-color: rgb(255,255,255)
+  app-header-background-color: black #rgb(0,154,181)
+  app-header-text-color: white #rgb(255,255,255)
 
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
